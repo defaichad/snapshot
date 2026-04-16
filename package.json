@@ -1,0 +1,17 @@
+{
+  "name": "xanon-snapshot-api",
+  "private": true,
+  "scripts": {
+    "fetch": "npx tsx scripts/fetch-balances.ts",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "viem": "^2.37.5"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.2.26",
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3"
+  }
+}
